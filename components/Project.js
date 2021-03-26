@@ -97,7 +97,7 @@ export default function Project() {
             <h1>Vidly</h1>
             <div class="projects__btns">
               <a
-                href="https://firzatullahd-vidly.herokuapp.com/"
+                href="https://velizhaar-vidly.herokuapp.com/"
                 class="projects__btn"
                 target="_blank"
                 rel="noopener noreferrer"
