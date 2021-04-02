@@ -11,5 +11,18 @@
     "next": "10.0.9",
     "react": "17.0.1",
     "react-dom": "17.0.1"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velizhaar/personal-website-veli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velizhaar/personal-website-veli/issues"
+  },
+  "homepage": "https://github.com/velizhaar/personal-website-veli#readme"
 }
