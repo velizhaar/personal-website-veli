@@ -7,7 +7,7 @@ export default function Name() {
           <font color="#DAA298">Velizha</font> Ayu Retnosari
         </h1>
         <h3 className="name-description">I build things for the web.</h3>
-        <a href="./Velizha CV.pdf" class="cv-btn" download>
+        <a href="./veli cv.pdf" class="cv-btn" download>
           Download CV
         </a>
       </div>
