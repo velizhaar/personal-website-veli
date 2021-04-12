@@ -126,10 +126,10 @@ export default function Project() {
           </div>
           <div class="p-box">
             <div class="overlay-text">
-              <h1>Fake Pizza Hut</h1>
+              <h1>React Quiz App</h1>
               <div class="projects__btns">
                 <a
-                  href="https://velizhaar.github.io/wpu-hut/"
+                  href="https://quiz-app-wheat.vercel.app/"
                   class="projects__btn"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -137,7 +137,7 @@ export default function Project() {
                   <i class="fas fa-eye"></i> Preview
                 </a>
                 <a
-                  href="https://github.com/velizhaar/wpu.hut"
+                  href="https://github.com/velizhaar/quiz-app"
                   class="projects__btn"
                   target="_blank"
                   rel="noopener noreferrer"
