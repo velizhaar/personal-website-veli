@@ -1,4 +1,5 @@
 @charset "utf-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 /* CSS Document */
 body {
   margin: 0px;
@@ -12,7 +13,7 @@ a {
   text-decoration: none;
 }
 #main {
-  padding: 30px 50px;
+  padding: 60px 50px 0 50px;
   position: relative;
   width: 100%;
   height: 100vh;
@@ -69,20 +70,26 @@ nav {
 }
 .name {
   font-family: calibri;
-  width: 500px;
+  /* background: aquamarine; */
+  width: 750px;
   position: absolute;
-  left: 20%;
+  left: 15%;
   top: 50%;
   transform: translate(-20%, -50%);
 }
 .name p:nth-child(1),
-.name .details {
+.name h3 {
   color: #6c707c;
-  font-size: 16px;
+  font-size: 2rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.name h3 {
+  font-size: 3rem;
 }
 .name h1 {
   font-family: Poppins;
-  font-size: 40px;
+  font-size: 4rem;
   margin: 0px;
   letter-spacing: 3px;
   color: #292929;
@@ -95,6 +102,7 @@ nav {
   align-items: center;
   background-color: #292929;
   color: #ffffff;
+  margin-top: 2rem;
 }
 .cv-btn:hover {
   background-color: #131313;
@@ -172,6 +180,18 @@ h2 {
 .about-text p {
   font-size: 1.2rem;
   color: rgba(255, 255, 255, 0.9);
+}
+
+.technologies {
+  color: rgba(255, 255, 255, 0.9);
+  display: flex;
+}
+.technologies ul {
+  margin-right: 1rem;
+}
+.technologies ul li {
+  color: rgba(255, 255, 255, 0.9);
+  list-style-type: disc;
 }
 
 #services {
@@ -340,6 +360,13 @@ p {
 }
 .p-box:hover .overlay-text {
   display: flex;
+}
+.overlay-text a {
+  color: white;
+  margin-right: 1rem;
+}
+.overlay-text a:hover {
+  text-decoration: underline;
 }
 .contact {
   width: 100%;
